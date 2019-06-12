@@ -1,4 +1,5 @@
-FROM node:10-alpine
+#FROM node:10-alpine
+FROM us.icr.io/oms-test1/node:10-alpine
 
 WORKDIR /app
 COPY package.json /app
